@@ -1,14 +1,16 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.HEROES = [
-    { id: 11, name: 'Mr. Nice' },
-    { id: 12, name: 'Narco' },
-    { id: 13, name: 'Bombasto' },
-    { id: 14, name: 'Celeritas' },
-    { id: 15, name: 'Magneta' },
-    { id: 16, name: 'RubberMan' },
-    { id: 18, name: 'Dr IQ' },
-    { id: 19, name: 'Magma' },
-    { id: 20, name: 'Tornado' }
+    { id: 11, name: 'Silk Spectre II' },
+    { id: 12, name: 'Dr. Manhattan' },
+    { id: 13, name: 'Rorschach' },
+    { id: 14, name: 'Comedian' },
+    { id: 15, name: 'Night Owl' },
+    { id: 16, name: 'Silk Spectre' },
+    { id: 17, name: 'Moloch' },
+    { id: 18, name: 'Mothman' },
+    { id: 19, name: 'Silhouette' },
+    { id: 20, name: 'Hooded Justice' },
+    { id: 21, name: 'Captain Metropolis' },
+    { id: 22, name: 'Ozymandias' }
 ];
 //# sourceMappingURL=mock-heroes.js.map
