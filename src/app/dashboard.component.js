@@ -11,13 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var hero_service_1 = require("./hero.service");
 var DashboardComponent = (function () {
-    function DashboardComponent(HeroService) {
-        this.HeroService = HeroService;
+    function DashboardComponent(heroService) {
+        this.heroService = heroService;
         this.heroes = [];
     }
     DashboardComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.HeroService.getHeroes()
+        this.heroService.getHeroes()
             .then(function (heroes) { return _this.heroes = heroes.slice(1, 5); });
     };
     return DashboardComponent;

@@ -21,7 +21,7 @@ import { AppRoutingModule } from './app-routing.module';
   	AppComponent,
   	DashboardComponent,
   	HeroDetailComponent,
-  	HeroesComponent, 
+  	HeroesComponent
   ],
 
   providers:[

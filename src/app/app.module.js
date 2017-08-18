@@ -30,7 +30,7 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             dashboard_component_1.DashboardComponent,
             hero_detail_component_1.HeroDetailComponent,
-            heroes_component_1.HeroesComponent,
+            heroes_component_1.HeroesComponent
         ],
         providers: [
             hero_service_1.HeroService
